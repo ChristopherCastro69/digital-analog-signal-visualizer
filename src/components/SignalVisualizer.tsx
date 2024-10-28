@@ -66,14 +66,14 @@ const SignalVisualizer: React.FC = () => {
         className="bg-blue-500 text-white p-3 rounded-lg transition duration-200 ease-in-out hover:bg-blue-600 mb-4"
       >
         Visualize Test
-        
+
       </button> */}
       <Canvas binary={binary} method={method} />
       <div className="text-center mt-4">
         <p className="text-sm text-gray-500">
           Developed by{" "}
           <a
-            href="https://github.com/ChristopherCastro69"
+            href="https://github.com/ChristopherCastro69/digital-analog-signal-visualizer"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-400 hover:underline"
