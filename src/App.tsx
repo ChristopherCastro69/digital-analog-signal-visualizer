@@ -1,24 +1,10 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import "./index.css"; // Ensure this line is present
+import SignalVisualizer from "./components/SignalVisualizer";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex items-center justify-center h-screen bg-gray-100">
+      {/* <h1 className="text-4xl font-bold text-blue-600">Hello World</h1> */}
+      <SignalVisualizer />
     </div>
   );
 }
