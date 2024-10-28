@@ -65,7 +65,8 @@ const SignalVisualizer: React.FC = () => {
         onClick={handleButtonClick}
         className="bg-blue-500 text-white p-3 rounded-lg transition duration-200 ease-in-out hover:bg-blue-600 mb-4"
       >
-        Visualize
+        Visualize Test
+        
       </button> */}
       <Canvas binary={binary} method={method} />
       <div className="text-center mt-4">
