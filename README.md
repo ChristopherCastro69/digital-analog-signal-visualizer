@@ -1,3 +1,10 @@
+![image](https://github.com/user-attachments/assets/f28327cc-dcc5-4cc4-b5e0-481d02a61deb)
+
+About Polar Line Encoding
+All the polar line encoding schemes NRZ-L, NRZ-I, Manchester, Differential-Manchester has been simulated|
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
